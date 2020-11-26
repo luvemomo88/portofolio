@@ -153,12 +153,9 @@ body {
   margin-bottom: 60px;
 }
 
-.slide_01 {
-  /* display: flex; */
-}
-
 .slide_01 .item,
-.slide_02 .item {
+.slide_02 .item,
+.slide_03 .item {
   margin: 0 20px;
   border: 1px solid #ddd;
   box-sizing: border-box;
@@ -182,13 +179,18 @@ body {
   padding: 135px 0;
 }
 
-.banner {
+.section.sec_04.slide_container {
+  margin: 0 20px;
+}
+
+.slide_banner .item {
   display: flex;
+  margin: 0 10px;
 }
 
 /* section_05 */
 .section.sec_05 {
-  height: 3500px;
+  height: 4000px;
   text-align: center;
   padding: 300px 0;
 }
