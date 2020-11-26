@@ -83,14 +83,14 @@ summary,
 time,
 mark,
 audio,
-/* video {
+video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-} */
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -126,4 +126,14 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
 }

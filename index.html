@@ -20,70 +20,82 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
+    <!-- 내소개 모달 -->
+    <div class="modal"></div>
+
     <!-- header -->
     <div class="header">
-      Yang Yae Jin PORTOFOLIO
-      <div class="btn">
-        <a href="#">About me</a>
+      <div class="container">
+        <h1 class="logo">Yang Yae Jin <span>PORTOFOLIO</span></h1>
+        <div class="btn"><a href="#">About me</a></div>
+        <ul class="gnb">
+          <li><a href="#">publishing</a></li>
+          <li><a href="#">web page</a></li>
+          <li><a href="#">UI/UX Design</a></li>
+          <li><a href="#">Banner & poster</a></li>
+          <li><a href="#">illust</a></li>
+        </ul>
       </div>
-
-      <ul>
-        <li><a href="#">publishing</a></li>
-        <li><a href="#">web page</a></li>
-        <li><a href="#">UI/UX Design</a></li>
-        <li><a href="#">Banner & poster</a></li>
-        <li><a href="#">illust</a></li>
-      </ul>
     </div>
 
     <!-- slide -->
     <div class="slide_container">
-      <div class="container slide">
-        <h1>Design & Publishing</h1>
+      <div class="main_slide">
+        <div class="item item_01"></div>
+        <div class="item item_02"></div>
+        <div class="item item_03"></div>
       </div>
+      <div class="slide_text">Design & Publishing</div>
     </div>
 
     <div class="content">
       <!-- section_01 -->
       <div class="section sec_01">
         <div class="container">
-          <h4>Publishing</h4>
+          <h3>Publishing</h3>
           <p>
             다양한 주제로 웹페이지를 디자인하였습니다. Html, Css, Jquery,
             JavaScript를 사용하여 작업하였습니다. 클릭버튼을 누르시면 링크로
             연결 됩니다.
           </p>
 
-          <div class="avatar">
-            <div>
-              <img src="./images/avatar_image1.jpg" alt="아바타" />
-              <p>
-                Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
-                누르세요.
-              </p>
-              <div class="btn">
-                <a href="#">Click</a>
+          <div class="cards">
+            <div class="card">
+              <div class="photo">
+                <img src="./images/avatar_image1.jpg" alt="아바타" />
               </div>
-            </div>
-            <div>
-              <img src="./images/avatar_image2.jpg" alt="아바타" />
-              <p>
-                Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
-                누르세요.
-              </p>
-              <div class="btn">
-                <a href="#">Click</a>
+              <div class="info">
+                <p>
+                  Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
+                  누르세요.
+                </p>
+                <a class="btn" href="#">Click</a>
               </div>
             </div>
 
-            <div>
-              <img src="./images/avatar_image3.jpg" alt="아바타" />
-              <p>
-                Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
-                누르세요.
-              </p>
-              <div class="btn">
-                <a href="#">Click</a>
+            <div class="card">
+              <div class="photo">
+                <img src="./images/avatar_image2.jpg" alt="아바타" />
+              </div>
+              <div class="info">
+                <p>
+                  Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
+                  누르세요.
+                </p>
+                <a class="btn" href="#">Click</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="photo">
+                <img src="./images/avatar_image3.jpg" alt="아바타" />
+              </div>
+              <div class="info">
+                <p>
+                  Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
+                  누르세요.
+                </p>
+                <a class="btn" href="#">Click</a>
               </div>
             </div>
           </div>
@@ -99,75 +111,86 @@
             Illustrator, Figma를 사용하였습니다. 클릭버튼을 누르시면
             상세페이지로 연결 됩니다.
           </p>
-          <ul class="web_card1">
-            <div>
-              <img src="./images/web_img1.jpg" alt="아바타" />
-              <p>
-                Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
-                누르세요.
-              </p>
-              <div class="btn">
-                <a href="#">Click</a>
+
+          <div class="cards">
+            <div class="card">
+              <div class="photo">
+                <img src="./images/web_img1.jpg" alt="아바타" />
+              </div>
+              <div class="info">
+                <p>
+                  Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
+                  누르세요.
+                </p>
+                <a class="btn" href="#">Click</a>
               </div>
             </div>
 
-            <div>
-              <img src="./images/web_img2.jpg" alt="아바타" />
-              <p>
-                Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
-                누르세요.
-              </p>
-              <div class="btn">
-                <a href="#">Click</a>
+            <div class="card">
+              <div class="photo">
+                <img src="./images/web_img2.jpg" alt="아바타" />
+              </div>
+              <div class="info">
+                <p>
+                  Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
+                  누르세요.
+                </p>
+                <a class="btn" href="#">Click</a>
               </div>
             </div>
 
-            <div>
-              <img src="./images/web_img3.jpg" alt="아바타" />
-              <p>
-                Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
-                누르세요.
-              </p>
-              <div class="btn">
-                <a href="#">Click</a>
+            <div class="card">
+              <div class="photo">
+                <img src="./images/web_img3.jpg" alt="아바타" />
               </div>
-            </div>
-          </ul>
-
-          <ul class="web_card2">
-            <div>
-              <img src="./images/web_img4.jpg" alt="아바타" />
-              <p>
-                Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
-                누르세요.
-              </p>
-              <div class="btn">
-                <a href="#">Click</a>
+              <div class="info">
+                <p>
+                  Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
+                  누르세요.
+                </p>
+                <a class="btn" href="#">Click</a>
               </div>
             </div>
 
-            <div>
-              <img src="./images/web_img5.jpg" alt="아바타" />
-              <p>
-                Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
-                누르세요.
-              </p>
-              <div class="btn">
-                <a href="#">Click</a>
+            <div class="card">
+              <div class="photo">
+                <img src="./images/web_img4.jpg" alt="아바타" />
+              </div>
+              <div class="info">
+                <p>
+                  Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
+                  누르세요.
+                </p>
+                <a class="btn" href="#">Click</a>
               </div>
             </div>
 
-            <div>
-              <img src="./images/web_img6.jpg" alt="아바타" />
-              <p>
-                Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
-                누르세요.
-              </p>
-              <div class="btn">
-                <a href="#">Click</a>
+            <div class="card">
+              <div class="photo">
+                <img src="./images/web_img5.jpg" alt="아바타" />
+              </div>
+              <div class="info">
+                <p>
+                  Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
+                  누르세요.
+                </p>
+                <a class="btn" href="#">Click</a>
               </div>
             </div>
-          </ul>
+
+            <div class="card">
+              <div class="photo">
+                <img src="./images/web_img6.jpg" alt="아바타" />
+              </div>
+              <div class="info">
+                <p>
+                  Html, Css, Jquery, JavaScript를 사용하여 작업. 클릭버튼을
+                  누르세요.
+                </p>
+                <a class="btn" href="#">Click</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -180,38 +203,81 @@
             작업하였습니다.
           </p>
 
-          <div class="slider">
-            <div class="slide1">
-              <img src="./images/slide1_1.jpg" alt="뮬란" />
-              <img src="./images/slide1_2.jpg" alt="뮬란" />
-              <img src="./images/slide1_3.jpg" alt="뮬란" />
+          <div class="slide_container">
+            <div class="slide_01">
+              <div class="item">
+                <img src="./images/slide1_1.jpg" alt="뮬란" />
+              </div>
+              <div class="item">
+                <img src="./images/slide1_2.jpg" alt="뮬란" />
+              </div>
+              <div class="item">
+                <img src="./images/slide1_3.jpg" alt="뮬란" />
+              </div>
+              <div class="item">
+                <img src="./images/slide1_1.jpg" alt="뮬란" />
+              </div>
+              <div class="item">
+                <img src="./images/slide1_2.jpg" alt="뮬란" />
+              </div>
+              <div class="item">
+                <img src="./images/slide1_3.jpg" alt="뮬란" />
+              </div>
             </div>
-
             <div class="arrow">
-              <span class="prev_btn"><i class="xi-angle-left-thin"></i></span>
-              <span class="next_btn"><i class="xi-angle-right-thin"></i></span>
+              <span class="s01_prev_btn"
+                ><i class="xi-angle-left-thin"></i
+              ></span>
+              <span class="s01_next_btn"
+                ><i class="xi-angle-right-thin"></i
+              ></span>
             </div>
+          </div>
 
-            <div class="slide2">
-              <img src="./images/slide2_1.jpg" alt="야채" />
-              <img src="./images/slide2_2.jpg" alt="야채" />
-              <img src="./images/slide2_3.jpg" alt="야채" />
+          <div class="slide_container">
+            <div class="slide_02">
+              <div class="item">
+                <img src="./images/slide2_1.jpg" alt="뮬란" />
+              </div>
+              <div class="item">
+                <img src="./images/slide2_2.jpg" alt="뮬란" />
+              </div>
+              <div class="item">
+                <img src="./images/slide2_3.jpg" alt="뮬란" />
+              </div>
+              <div class="item">
+                <img src="./images/slide2_1.jpg" alt="뮬란" />
+              </div>
+              <div class="item">
+                <img src="./images/slide2_2.jpg" alt="뮬란" />
+              </div>
+              <div class="item">
+                <img src="./images/slide2_3.jpg" alt="뮬란" />
+              </div>
             </div>
-
             <div class="arrow">
-              <span class="prev_btn"><i class="xi-angle-left-thin"></i></span>
-              <span class="next_btn"><i class="xi-angle-right-thin"></i></span>
+              <span class="s02_prev_btn"
+                ><i class="xi-angle-left-thin"></i
+              ></span>
+              <span class="s02_next_btn"
+                ><i class="xi-angle-right-thin"></i
+              ></span>
             </div>
+          </div>
 
-            <div class="slide3">
-              <img src="./images/slide3_1.jpg" alt="콘서트" />
-              <img src="./images/slide3_2.jpg" alt="콘서트" />
-              <img src="./images/slide3_3.jpg" alt="콘서트" />
+          <div class="slide_container">
+            <div class="slide_03">
+              <img src="./images/slide3_1.jpg" alt="뮬란" />
+              <img src="./images/slide3_2.jpg" alt="뮬란" />
+              <img src="./images/slide3_3.jpg" alt="뮬란" />
             </div>
-
             <div class="arrow">
-              <span class="prev_btn"><i class="xi-angle-left-thin"></i></span>
-              <span class="next_btn"><i class="xi-angle-right-thin"></i></span>
+              <span class="s02_prev_btn"
+                ><i class="xi-angle-left-thin"></i
+              ></span>
+              <span class="s02_next_btn"
+                ><i class="xi-angle-right-thin"></i
+              ></span>
             </div>
           </div>
         </div>
@@ -220,22 +286,23 @@
       <!-- section_04 -->
       <div class="section sec_04">
         <div class="container">
-          <h2>Banner & Poster Design</h2>
+          <h3>Banner & Poster Design</h3>
           <p>
             모바일 앱을 기반으로 UI/UX를 디자인 하였습니다. Figma를 사용하여
             작업하였습니다.
           </p>
 
-          <div class="banner">
-            <img src="./images/banner_1.jpg" alt="배너" />
-            <img src="./images/banner_2.jpg" alt="배너" />
-            <img src="./images/banner_3.jpg" alt="배너" />
-            <img src="./images/banner_4.jpg" alt="배너" />
-          </div>
-
-          <div class="arrow">
-            <span class="prev_btn"><i class="xi-angle-left-thin"></i></span>
-            <span class="next_btn"><i class="xi-angle-right-thin"></i></span>
+          <div class="slide_container">
+            <div class="slide_banner">
+              <img src="./images/banner_1.jpg" alt="배너" />
+              <img src="./images/banner_2.jpg" alt="배너" />
+              <img src="./images/banner_3.jpg" alt="배너" />
+              <img src="./images/banner_4.jpg" alt="배너" />
+            </div>
+            <div class="arrow">
+              <span class="prev_btn"><i class="xi-angle-left-thin"></i></span>
+              <span class="next_btn"><i class="xi-angle-right-thin"></i></span>
+            </div>
           </div>
         </div>
       </div>
@@ -243,7 +310,7 @@
       <!-- section_05 -->
       <div class="section sec_05">
         <div class="container">
-          <h2>illust</h2>
+          <h3>illust</h3>
           <p>
             펜으로 직접 그림을 그리고, 사진을 합성하여 포토샵으로
             작업하였습니다.
@@ -288,14 +355,32 @@
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <script>
-      // $(".slide1, .slide2, .slide3").slick({
-      //   dots: true,
-      //   autoplay: true,
-      //   speed: 600,
-      //   autoplaySpeed: 5000,
-      //   prevArrow: $(".prev_btn"),
-      //   nextArrow: $(".next_btn"),
-      // })
+      $(".main_slide").slick({
+        dots: true,
+        autoplay: true,
+        speed: 600,
+        autoplaySpeed: 5000,
+        prevArrow: $(".prev_btn"),
+        nextArrow: $(".next_btn"),
+      })
+
+      $(".slide_01").slick({
+        autoplay: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: $(".s01_prev_btn"),
+        nextArrow: $(".s01_next_btn"),
+      })
+
+      $(".slide_02").slick({
+        autoplay: true,
+        infinite: true,
+        slidesToScroll: 1,
+        slidesToShow: 3,
+        prevArrow: $(".s02_prev_btn"),
+        nextArrow: $(".s02_next_btn"),
+      })
     </script>
   </body>
 </html>
