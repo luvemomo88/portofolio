@@ -190,16 +190,17 @@ body {
 
 /* section_05 */
 .section.sec_05 {
-  height: 4000px;
+  height: 4500px;
   text-align: center;
   padding: 300px 0;
 }
 
-.section.sec_05 .photo2,
-.photo3,
-.photo4,
-.photo5 {
+.section.sec_05 .drawings2,
+.drawings3,
+.drawings4,
+.drawings5 {
   display: flex;
+  margin-bottom: 50px;
 }
 
 /* footer */
