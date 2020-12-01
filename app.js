@@ -1,4 +1,4 @@
-const btn = document.querySelector(".btn")
+const btn = document.querySelector(".btn1 a")
 const dimm = document.querySelector(".dimm")
 const modal = document.querySelector(".modal")
 const close = document.querySelector(".close")
