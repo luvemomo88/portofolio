@@ -1,21 +1,12 @@
-const btn = document.querySelector(".btn1 a")
-const dimm = document.querySelector(".dimm")
-const modal = document.querySelector(".modal")
-const close = document.querySelector(".close")
-
-btn.addEventListener("click", function () {
-  console.log(this)
-
-  dimm.classList.add("open")
-  modal.classList.add("open")
-})
-
-close.addEventListener("click", () => {
-  dimm.classList.remove("open")
-  modal.classList.remove("open")
-})
-
-dimm.addEventListener("click", () => {
-  dimm.classList.remove("open")
-  modal.classList.remove("open")
+$(function () {
+  $('.popup-modal').magnificPopup({
+    type: 'inline',
+    preloader: false,
+    focus: '#username',
+    modal: true
+  })
+  $(document).on('click', '.popup-modal-dismiss', function (e) {
+    e.preventDefault()
+    $.magnificPopup.close()
+  })
 })

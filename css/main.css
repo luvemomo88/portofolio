@@ -6,7 +6,7 @@ body {
   font-size: 16px;
 }
 
-.btn1 {
+.btn_about {
   display: inline-block;
   font-size: 14px;
   background: #eb9292;
@@ -56,14 +56,49 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
-  padding: 2rem 3rem;
+  width: 1000px;
+  padding: 1.6rem;
   background: #fff;
-  opacity: 0;
+  border-radius: 12px;
 }
 
-.modal.open {
-  opacity: 1;
+.modal .inner {
+  border: 3px dashed #333;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.modal .intro {
+  display: flex;
+  margin-bottom: 3rem;
+  justify-content: space-between;
+}
+
+.modal .intro .item {
+  padding-left: 100px;
+}
+
+.modal .intro .item:nth-child(1) {
+  background: url(../images/Vector1.png) no-repeat top left;
+}
+
+.modal .intro .item:nth-child(2) {
+  background: url(../images/Vector2.png) no-repeat top left;
+}
+
+.modal .intro .item:nth-child(3) {
+  background: url(../images/Vector3.png) no-repeat top left;
+}
+
+.modal .intro .item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.modal .intro .item ul li {
+  padding: 4px 0;
+  font-size: 14px;
 }
 
 /* header */
@@ -118,7 +153,11 @@ body {
 
 .main_slide .item {
   height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
 .main_slide .item_01 {
   background-image: url(../images/bg_img.jpg);
 }

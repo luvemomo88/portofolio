@@ -52,3 +52,7 @@
 .modal.open {
   opacity: 1;
 }
+
+.popup-modal-dismiss {
+  margin-top: 50%;
+}
