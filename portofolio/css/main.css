@@ -56,6 +56,21 @@ body {
   position: relative;
 }
 
+.modal .inner .close_btn {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 .modal .intro {
   display: flex;
   margin-bottom: 3rem;
