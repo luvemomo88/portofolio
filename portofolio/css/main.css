@@ -271,7 +271,7 @@ body {
 }
 
 .slide_container .text p {
-  margin-bottom: 60px;
+  margin-top: 40px;
 }
 
 /* section_04 */
@@ -305,8 +305,10 @@ body {
   margin-bottom: 50px;
 }
 
-.section sec_05 .container .p span {
-  font-size: 700px;
+.illust_sub_title {
+  font-weight: 700;
+  margin-top: 60px;
+  color: #333;
 }
 
 /* footer */
