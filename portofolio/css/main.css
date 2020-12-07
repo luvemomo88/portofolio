@@ -324,3 +324,55 @@ body {
   font-weight: 800;
   font-family: "Qwigley", cursive;
 }
+
+form {
+  width: 600px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+form .mail input {
+  width: 358px;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: #333;
+  background: #f2f2f2;
+  font-size: 14px;
+}
+
+form .mail button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: #eb5757;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+
+.footer .container .text .xi-mobile {
+  font-size: 24px;
+  margin-right: -60px;
+}
+
+.footer .text .cell_phone {
+  width: 600px;
+  margin-top: 50px;
+}
+
+.footer .text p {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Nanum Gothic", cursive;
+}
+
+.footer .text .copyright {
+  margin-top: 150px;
+}
+
+.footer .copyright p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nanum Gothic", cursive;
+}
