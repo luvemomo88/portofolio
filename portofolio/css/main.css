@@ -266,6 +266,14 @@ body {
   font-size: 60px;
 }
 
+.text {
+  margin-bottom: 60px;
+}
+
+.slide_container .text p {
+  margin-bottom: 60px;
+}
+
 /* section_04 */
 .section.sec_04 {
   height: 600px;
@@ -295,6 +303,10 @@ body {
 .drawings5 {
   display: flex;
   margin-bottom: 50px;
+}
+
+.section sec_05 .container .p span {
+  font-size: 700px;
 }
 
 /* footer */
