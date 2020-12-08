@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+
+:root {
+  --primary: #111;
+  --accent: #eb5757;
+  --gray-dark: #666;
+  --gray-light: #f5f5f5;
+}
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  color: var(--primary);
+  font-size: 16px;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 70px 0;
+}
+
+h2 {
+  align-items: center;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.btn {
+  display: inline-block;
+  background: #fff;
+  color: #111;
+  padding: 14px 40px;
+  border-radius: 80px;
+}
+
+.btn_line {
+  background: #111;
+  color: #fff;
+  padding: 10px 26px;
+  font-size: 14px;
+  border: 1px solid #111;
+  border-radius: 80px;
+}
+
+/* header */
+
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  margin-right: 30px;
+}
+
+.nav a {
+  display: block;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 30px;
+  font-size: 14px;
+}
+
+.nav a.on {
+  color: var(--accent);
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.cart {
+  display: block;
+  position: relative;
+}
+
+.cart i {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.cart span {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+  background: red;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 16px;
+}
+
+/* slide */
+.slider {
+  margin-bottom: 70px;
+}
+
+.slide {
+  height: 600px;
+  background: url("../images/slide_3.png") no-repeat center;
+  background-size: cover;
+  padding: initial;
+}
+
+.slide_text {
+  padding-top: 150px;
+  color: #fff;
+}
+
+.slide_text h2 {
+  align-items: center;
+  margin-bottom: 86px;
+}
+
+.slide_text p {
+  margin-bottom: 60px;
+}
+
+.slide_text .btns {
+  margin-right: 30px;
+}
+
+.slide_text .detail_view {
+  display: inline-block;
+  padding: 10px 0;
+  border-bottom: 1px solid #111;
+  margin-right: 40px;
+}
+
+/* accordion */
+
+h1 {
+  text-align: center;
+  margin: 3rem;
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  height: 1000px;
+  width: 1200px;
+}
+
+.accordion .content {
+  margin: 10px 20px;
+}
+
+.accordion .content h3 {
+  padding: 1rem;
+  background: #49665c;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  font-size: 32px;
+}
+
+.accordion .content h3::after {
+  font-family: "xeicon";
+  content: "\e9c5";
+  position: absolute;
+  top: 60%;
+  transform: translateY(-60%);
+  right: 16px;
+}
+
+.accordion .content.active h3::after {
+  font-family: "xeicon";
+  content: "\e9c1";
+}
+
+.accordion .content .text {
+  padding: 0 10px;
+  background: #fff;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s, padding 0.3s;
+  font-size: 18px;
+}
+
+.accordion .content.active .text {
+  padding: 20px 10px;
+  height: 150px;
+}
