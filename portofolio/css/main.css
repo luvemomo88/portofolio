@@ -134,6 +134,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   margin-right: 20px;
+  color: #333;
 }
 
 .logo span {
@@ -325,50 +326,40 @@ body {
   font-family: "Qwigley", cursive;
 }
 
-form {
-  width: 600px;
-  margin: 0 auto;
-  padding: 100px 0;
-}
-
-form .mail input {
-  width: 358px;
-  height: 50px;
-  box-sizing: border-box;
-  padding: 10px;
-  border: #333;
-  background: #f2f2f2;
-  font-size: 14px;
-}
-
-form .mail button {
-  width: 100px;
-  height: 50px;
-  border: none;
-  outline: none;
-  background: #eb5757;
-  color: #f2f2f2;
-  cursor: pointer;
-}
-
-.footer .container .text .xi-mobile {
+.footer .mail_text p {
   font-size: 24px;
-  margin-right: -60px;
+  font-weight: 700;
+  font-family: "Nanum Gothic", cursive;
+  margin-top: 150px;
 }
 
-.footer .text .cell_phone {
-  width: 600px;
-  margin-top: 50px;
+.footer .send {
+  text-align: center;
+  margin-top: -70px;
+}
+
+.footer .btn_mail {
+  margin-right: 20px;
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  border-radius: 32px;
+  background: #eb9292;
+  color: #fff;
+  line-height: 35px;
+  margin-top: 30px;
+  cursor: pointer;
 }
 
 .footer .text p {
   font-size: 24px;
   font-weight: 700;
   font-family: "Nanum Gothic", cursive;
+  margin-top: 100px;
 }
 
 .footer .text .copyright {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .footer .copyright p {
