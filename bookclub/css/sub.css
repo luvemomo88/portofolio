@@ -204,11 +204,11 @@ h4 {
 }
 
 /* section_03 */
+
 .section.sec_03,
 .section.sec_04,
 .section.sec_05,
-.section.sec_06,
-.section.sec_07 {
+.section.sec_06 {
   height: 600px;
   box-sizing: border-box;
   padding: 135px 0;
